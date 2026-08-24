@@ -1,1 +1,55 @@
-# adryan
+# adryan<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <style>
+           header{
+               background-color: #183C63;
+               color: #FFFFFF;
+               text-align: center;
+               max-width: 800px;
+               margin: 0 auto;
+               padding: 16px;
+               border: 5px solid #610000;
+           }
+           main {
+               background-color: #FFFFFF;
+               color: #183C63;
+               max-width: 800px;
+               margin: 0 auto;
+               padding: 16px;
+               display: flex;
+           }
+          
+           img {
+               width: 80px;
+               height: 80px;
+           }
+           div p {
+               font-weight: bold;
+           }
+
+
+       </style>
+   </head>
+
+
+   <body>
+       <header>
+           <h1>Meu blog tech</h1>
+           <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+       </header>
+       <main>
+       <img src="ilustracao-3d-personagem-icone-lampada
+        -e-livro 580668-6327.jpg"
+       alt="/ilustracao-3d-personagem-icone-lampada-e-livro_580668-6327.jpg.">
+       <div>
+           <h2>Meu primeiro post</h2>
+           <p class="artigo-autor">Por:Felipe deraldo</p>
+           <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+       </div>
+       </main> 
+   </body>
+</html>
