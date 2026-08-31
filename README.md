@@ -47,7 +47,7 @@
        alt="/ilustracao-3d-personagem-icone-lampada-e-livro_580668-6327.jpg.">
        <div>
            <h2>Meu primeiro post</h2>
-           <p class="artigo-autor">Por:Felipe deraldo</p>
+           <p class="artigo-autor">Por:adyan gabriel</p>
            <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
        </div>
        </main> 
