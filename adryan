@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Soluciona — Projeto Start by Alura</title>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <div class="app">
+         <!-- CABEÇALHO -->
+         <header class="cabecalho">
+             <h1>🌟 Soluciona</h1>
+             <p>Projeto colaborativo com apoio de IA</p>
+             <button id="botao-tema" class="botao-tema">🌙</button>
+         </header>
+         <!-- NAVEGAÇÃO -->
+         <nav class="navegacao">
+             <button class="aba ativa" data-aba="problema">1️⃣ Problema</button>
+             <button class="aba" data-aba="ideacao">2️⃣ Ideação</button>
+             <button class="aba" data-aba="prototipo">3️⃣ Protótipo</button>
+             <button class="aba" data-aba="validacao">4️⃣ Validação</button>
+             <button class="aba" data-aba="solucao">5️⃣ Solução</button>
+         </nav>
+         <!-- CONTEÚDO PRINCIPAL -->
+         <main class="conteudo">
+             <!-- ETAPA 1: PROBLEMA -->
+             <section class="secao ativa" id="problema">
+                 <h2>📌 Definição do Problema Real</h2>
+                 <textarea id="texto-problema" placeholder="Descreva o problema que vocês identificaram..."></textarea>
+                 
+                 <div class="ferramenta-ia">
+                     <h3>🤖 Ajuda da IA</h3>
+                     <button id="ia-problema">A IA me ajuda a refinar</button>
+                     <p id="resposta-ia-problema"></p>
+                 </div>
+             </section>
+             <!-- ETAPA 2: IDEAÇÃO -->
+             <section class="secao" id="ideacao">
+                 <h2>💡 Ideação — Soluções</h2>
+                 <textarea id="texto-ideias" placeholder="Liste todas as ideias de solução, sem julgar..."></textarea>
+                 
+                 <div class="ferramenta-ia">
+                     <h3>🤖 Ajuda da IA</h3>
+                     <button id="ia-ideias">Gerar mais ideias com a IA</button>
+                     <p id="resposta-ia-ideias"></p>
+                 </div>
+             </section>
+             <!-- ETAPA 3: PROTOTIPAÇÃO -->
+             <section class="secao" id="prototipo">
+                 <h2>🎨 Prototipação</h2>
+                 <textarea id="texto-prototipo" placeholder="Descreva ou desenhe como será a solução..."></textarea>
+             </section>
+             <!-- ETAPA 4: VALIDAÇÃO -->
+             <section class="secao" id="validacao">
+                 <h2>✅ Validação</h2>
+                 <textarea id="texto-validacao" placeholder="Como vocês vão testar? Quem vai avaliar? Quais ajustes podem ser feitos?"></textarea>
+             </section>
+             <!-- ETAPA 5: SOLUÇÃO FINAL -->
+             <section class="secao" id="solucao">
+                 <h2>📣 Solução Final</h2>
+                 <textarea id="texto-solucao" placeholder="Descreva a solução completa e como comunicarão a todos..."></textarea>
+                 
+                 <button id="baixar-relatorio" class="botao-principal">📄 Baixar Relatório</button>
+             </section>
+         </main>
+         <!-- INFO SOBRE A IA -->
+         <section class="sobre-ia">
+             <h3>ℹ️ Sobre a IA</h3>
+             <p><strong>Potencialidades:</strong> Organiza ideias, sugere caminhos, economiza tempo.<br>
+             <strong>Limites:</strong> Não decide por nós, pode errar, não tem valores.<br>
+             <strong>Riscos:</strong> Dependência, cópia sem autoria, desinformação.<br>
+             <em>💡 A IA é ferramenta — quem cria e julga somos nós!</em></p>
+         </section>
+         <!-- RODAPÉ -->
+         <footer class="rodape">
+             <p>Projeto desenvolvido na unidade <strong>Start by Alura</strong><br>
+             Autoria: adrya  | 2026 — Ferramenta para trabalho colaborativo</p>
+         </footer>
+     </div>
+     <script src="app.js"></script>
+ </body>
+ </html>
